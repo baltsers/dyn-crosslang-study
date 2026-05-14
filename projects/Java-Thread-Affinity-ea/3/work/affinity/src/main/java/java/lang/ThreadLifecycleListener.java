@@ -1,0 +1,45 @@
+/*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ */
+
+package java.lang;
+
+
+
+
+public interface ThreadLifecycleListener {
+
+    /**
+
+
+
+     */
+    void started(Thread t);
+
+    /**
+
+
+
+     */
+    void startFailed(Thread t);
+
+    /**
+
+
+
+     */
+    void terminated(Thread t);
+}

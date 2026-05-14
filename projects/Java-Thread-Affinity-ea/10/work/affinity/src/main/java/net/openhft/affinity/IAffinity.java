@@ -1,0 +1,53 @@
+/*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ */
+
+package net.openhft.affinity;
+
+import java.util.BitSet;
+
+/**
+
+
+
+
+ */
+public interface IAffinity {
+
+
+
+    BitSet getAffinity();
+
+
+
+
+    void setAffinity(final BitSet affinity);
+
+
+
+
+    int getCpu();
+
+
+
+
+    int getProcessId();
+
+
+
+
+    int getThreadId();
+}
